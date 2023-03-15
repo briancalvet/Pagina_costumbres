@@ -285,6 +285,10 @@ nav {
   }
 }
 
+.estiloBtn{
+  background-color: orange;
+}
+
 
 
 /* Objetos en el cuerpo de la pagina */
@@ -318,8 +322,13 @@ nav {
   background-position: center ;
   margin-top: 100px;
   
-  
-  
+}
+
+.imagenDeFondoMinorista{
+  background-image: url(https://i.ibb.co/6r9LbXL/20210506-215505.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
   
 }
 

@@ -9,6 +9,7 @@ const btnCarrito = document.querySelector("#btnAddToCard1");
 const inforPorducto = document.querySelector(".infocarrito");
 const btnCierreInformacion = document.querySelector(".product-detail-close"); 
 const btnAddedToCart = document.querySelector(".add-to-cart-button");
+const contacto = document.querySelector(".contacto"); 
 
 
 
@@ -17,7 +18,8 @@ imgCarrito.addEventListener("click" , desplegarCarrito );
 imgMobileDesplegable.addEventListener("click" , desplegarMenuCelular);
 btnCarrito.addEventListener("click" , desplegarInfoCompra );
 btnCierreInformacion.addEventListener("click" , cierreDeDescripcionProducto); 
-btnAddedToCart.addEventListener("click" , agregarAMisOrdenes);
+
+
 
 
 
@@ -91,7 +93,3 @@ function cierreDeDescripcionProducto(){
     }
 }
 
-function agregarAMisOrdenes(){
-
-
-}
